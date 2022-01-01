@@ -26,9 +26,9 @@ const Footer = () => {
           <NavLink className="footer-link" target="_blank" rel="noreferrer" to="/">Terms &amp; Conditions</NavLink>
         </div>
       </section>
-      <section className="copyright my-auto py-2 py-md-3  text-center"> ©
-        2021 <Link className="text-lightgrey" to="./"><strong>Anshu Memorial Academy</strong>. </Link><span className="d-none d-md-inline me-5"> All Right Reserved. </span>
-        <hr style={{ maxWidth: 300 }} className="bg-muted my-1 w-50 mx-auto d-md-none" /> <span className="d-block d-md-inline"> Designed &amp; Developed by <Link rel="norefferer" target="_blank" to="https://skwebs.github.io">SKWebs</Link></span>
+      <section className="copyright my-auto py-2 py-md-3  text-center">
+        © 2021 <Link className="text-lightgrey" to="./"><strong>Anshu Memorial Academy</strong></Link>{" "}<span className="d-none d-md-inline me-5"> All Right Reserved. </span>
+        <hr style={{ maxWidth: 300 }} className="bg-muted my-1 w-50 mx-auto d-md-none" /> <span className="d-block d-md-inline"> Designed &amp; Developed by <a target="_blank" href="https://skwebs.github.io">SKWebs</a></span>
       </section>
     </>
   )

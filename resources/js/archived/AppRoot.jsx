@@ -1,13 +1,13 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ProtectedRoute from './components/ProtectedRoute';
-import Navigation from "./components/Navigation";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import MultipleInput from './pages/MultipleInput';
-import PageNotFound from './pages/PageNotFound';
+import ProtectedRoute from '../components/ProtectedRoute';
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
+import Home from "../pages/Home";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+import MultipleInput from '../pages/MultipleInput';
+import PageNotFound from '../pages/PageNotFound';
 
 function AppRoot() {
   return (
